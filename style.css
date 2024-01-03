@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(35, 35, 35);
+}
+
+/* Add this CSS to style the overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    z-index: 999; /* Ensure it appears above other elements */
+}
+
+/* Optionally, you can style the winning text itself */
+#winText {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#playerText {
+    text-align: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.rtb {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#restartBtn {
+    width: 80px;
+    height: 65%;
+    border: none;
+    background-color: orange;
+    border-radius: 15px;
+    font-size: .7em;
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    
+}
+
+#restartBtn:hover {
+    cursor: pointer;
+    background-color: rgb(210, 145, 23);
+}
+
+.gameboard {
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+
+
+.box {
+    position: relative;
+    bottom: 18px;
+    width: 10rem;
+    height: 10rem;
+    border: none;
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 900;
+    background-color: transparent;
+    
+}
+
+.inv {
+    display: none;
+}
