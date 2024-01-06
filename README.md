@@ -16,7 +16,7 @@
 
 To play, simply click on the link below or go to repository:
 
-[![Play Tic Tac Toe](https://img.shields.io/badge/Play%20Tic%20Tac%20Toe-Go%20to%20Repository-brightgreen)]([https://0c37bbee-43c9-483c-8cf5-dd363c398230-00-go02jva0f28n.worf.replit.dev/](https://github.com/Ahadfahim/tiktactoe))
+[![Play Tic Tac Toe](https://img.shields.io/badge/Play%20Tic%20Tac%20Toe-Go%20to%20Repository-brightgreen)](https://0c37bbee-43c9-483c-8cf5-dd363c398230-00-go02jva0f28n.worf.replit.dev/)
 
 
 <h2 align="center">INSTALLATION</h2> <br>
